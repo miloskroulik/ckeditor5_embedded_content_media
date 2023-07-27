@@ -1,0 +1,7 @@
+name: 'Ckeditor5 Embedded Content Media'
+type: module
+description: 'Trying to render data returned by Media Library'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - media_library_form_element:media_library_form_element

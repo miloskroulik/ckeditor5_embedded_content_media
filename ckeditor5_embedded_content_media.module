@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function ckeditor5_embedded_content_media_theme($existing, $type, $theme, $path) {
+  return [
+    'ckeditor5_embedded_content_media_media' => [
+      'variables' => [
+        'media' => NULL,
+      ],
+      'template' => 'embedded-content/media',
+    ]
+  ];
+}
